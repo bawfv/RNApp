@@ -22,15 +22,6 @@ import AccIconPress from '../resources/images/account_icon_press.png'
 const HomeStack = createStackNavigator(
     {
         Home : Home,
-    },{
-        defaultNavigationOptions :{
-            headerBackTitle : null,
-            headerTitleStyle : {
-                color : 'rgba(51,51,51,1)',
-                fontSize : 17
-            },
-            headerBackImage : <BackImg/>,
-        }
     }
 );
 
@@ -38,45 +29,18 @@ const MyStack = createStackNavigator(
     {
         MyHome : MyHome,
         Setting : SettingPage,
-    },{
-        defaultNavigationOptions :{
-            headerBackTitle : null,
-            headerTitleStyle : {
-                color : 'rgba(51,51,51,1)',
-                fontSize : 17
-            },
-            headerBackImage : <BackImg/>,
-        }
     }
 )
 
 const AccStack = createStackNavigator(
     {
         AccHome : AccHome,
-    },{
-        defaultNavigationOptions :{
-            headerBackTitle : null,
-            headerTitleStyle : {
-                color : 'rgba(51,51,51,1)',
-                fontSize : 17
-            },
-            headerBackImage : <BackImg/>,
-        }
     }
 );
 
 const MsgStack = createStackNavigator(
     {
         MsgHome : MsgHome
-    },{
-        defaultNavigationOptions :{
-            headerBackTitle : null,
-            headerTitleStyle : {
-                color : 'rgba(51,51,51,1)',
-                fontSize : 17
-            },
-            headerBackImage : <BackImg/>,
-        }
     }
 )
 
@@ -108,6 +72,12 @@ export default createAppContainer(createBottomTabNavigator(
                     style={{width:25,height:25}}
                 />;
             },
+            headerBackTitle : null,
+            headerTitleStyle : {
+                color : 'rgba(51,51,51,1)',
+                fontSize : 17
+            },
+            headerBackImage : <BackImg/>,
         }),
         tabBarOptions: {
             activeTintColor: 'rgba(156,104,1,1)',
