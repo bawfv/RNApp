@@ -8,7 +8,9 @@
 
 ![image](https://github.com/bawfv/RNApp/blob/master/src/resources/images/1.png)
 
+
 ![image](https://github.com/bawfv/RNApp/blob/master/src/resources/images/2.png)
+
 
 ![image](https://github.com/bawfv/RNApp/blob/master/src/resources/images/3.png)
 
